@@ -1,0 +1,2 @@
+# just an example file showing how to call the API for a prediction
+curl -X POST localhost:5000/predict -d '[{"MedInc": 8.325200, "HouseAge": 41.000000, "AveRooms": 6.984127, "AveBedrms": 1.023810, "Population": 322.000000, "AveOccup": 2.555556, "Latitude": 37.880000, "Longitude": 122.230000}, {"MedInc": 8.301400, "HouseAge": 21.000000, "AveRooms": 6.238137, "AveBedrms": 0.971880, "Population": 2401.000000, "AveOccup": 2.109842, "Latitude": 37.860000, "Longitude": 122.220000}]' -H "Content-type: application/json"
